@@ -3,7 +3,15 @@ this project for manga dual page reader
 - swap 2 pages from left-right to right-left
 - toggle shift page for 1&2 to 2&3
 
-# installation
+## Working OS
+
+| Operating System | Supported |
+|------------------|-----------|
+| Windows          | ✓         |
+| macOS            | untest         |
+| Linux            | untest         |
+
+# Usage
 ### with out conda
 ``` bash
     # install requirement package
