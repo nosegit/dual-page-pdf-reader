@@ -57,7 +57,7 @@ class PDFReader:
         view_menu.add_cascade(label="Image Size", menu=image_size_menu)
         image_size_menu.add_command(label="Small", command=lambda: self.resize_window(800, 600))
         image_size_menu.add_command(label="Medium", command=lambda: self.resize_window(1200, 850))
-        image_size_menu.add_command(label="Large", command=lambda: self.resize_window(1280, 800))
+        image_size_menu.add_command(label="Large", command=lambda: self.resize_window(1420, 1000))
         view_menu.add_command(label="Swap Pages", command=self.swap_pages)
         view_menu.add_command(label="Shift/Unshift Pages", command=self.toggle_shift)
 
